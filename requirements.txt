@@ -1,0 +1,29 @@
+# Web Framework
+Flask==3.0.3
+
+# Infrastructure as Code (AWS/Terraform/Cloud SDKs)
+boto3==1.35.12
+botocore==1.35.12
+python-terraform==0.10.1
+
+# For environment variables
+python-dotenv==1.0.1
+
+# API request handling and validation
+requests==2.32.3
+pydantic==2.9.0
+
+# Logging and utilities
+loguru==0.7.2
+
+# For CORS (if frontend calls your API)
+flask-cors==4.0.1
+
+# Testing
+pytest==8.3.3
+
+# Optional: for async operations or background tasks
+aiohttp==3.10.9
+
+pip install -r requirements.txt
+
